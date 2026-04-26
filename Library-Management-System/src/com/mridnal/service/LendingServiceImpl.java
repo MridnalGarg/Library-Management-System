@@ -15,7 +15,6 @@ import static com.mridnal.service.InMemoryStore.logger;
 
 public class LendingServiceImpl implements LendingService {
 
-    // Storing a master list of all lending transactions
     private final List<LendingRecord> lendingRecords = new ArrayList<>();
 
     private PatronService patronService;
